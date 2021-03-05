@@ -1,2 +1,8 @@
+def foo():
+  return 1
+
+def bar():
+  return 2
+
 def test_hello():
-  assert 2 == 2
+  assert bar() == 2
