@@ -6,5 +6,4 @@ def bar():
 
 def test_hello():
   bar()
-  bar()
   assert 2 == 2
